@@ -15,6 +15,8 @@ const tool = process.argv[toolArgIndex + 1];
 const cmd = process.argv[cmdArgIndex + 1];
 const outDir = process.argv[outDirArgIndex + 1];
 
+const TOOL_TIMEOUT_MS = parseInt(process.env.TOOL_TIMEOUT_MS || '600000', 10);
+
 if (!fs.existsSync(tasksFile)) {
   console.error('Tasks file not found at', tasksFile);
   process.exit(1);
@@ -45,17 +47,29 @@ for (const task of tasks) {
 
   const start = Date.now();
 
+  // Prepare isolated env for the tool invocation to avoid global DB migrations or shared state
+  const envLocal = Object.assign({}, process.env);
+  envLocal.XDG_DATA_HOME = path.join(workspace, '.local', 'share');
+  envLocal.XDG_CONFIG_HOME = path.join(workspace, '.config');
+  envLocal.HOME = workspace; // some tools respect HOME; isolate it
+
   // Attempt to run the agent/tool to modify the workspace. Expect the user to provide a noninteractive command that operates in the CWD.
   if (cmd && cmd.length > 0) {
     try {
-      console.log('Attempting to invoke tool command in workspace:', cmd);
-      // run as a shell command so OPENCODE_CMD or CRUSH_CMD can be a full command string
-      const r = spawnSync(cmd, { cwd: workspace, shell: true, stdio: 'inherit', env: Object.assign({}, process.env) });
+      console.log('Attempting to invoke tool command in workspace:', cmd, `(timeout ${TOOL_TIMEOUT_MS}ms)`);
+      // Capture stdout/stderr to files so we can inspect crashes and errors
+      const r = spawnSync(cmd, { cwd: workspace, shell: true, encoding: 'utf8', maxBuffer: 50 * 1024 * 1024, timeout: TOOL_TIMEOUT_MS, env: envLocal });
+      // write outputs to files for debugging
+      try { fs.writeFileSync(path.join(taskOut, 'tool_stdout.txt'), r.stdout || ''); } catch (e) {}
+      try { fs.writeFileSync(path.join(taskOut, 'tool_stderr.txt'), r.stderr || ''); } catch (e) {}
+      try { fs.writeFileSync(path.join(taskOut, 'tool_exit.json'), JSON.stringify({ status: r.status, signal: r.signal }, null, 2)); } catch (e) {}
       if (r.error) {
-        console.warn('Tool invocation error (ignored):', r.error.message);
+        console.warn('Tool invocation error:', r.error.message);
+        try { fs.writeFileSync(path.join(taskOut, 'tool_invocation_error.txt'), r.error.stack || String(r.error)); } catch (e) {}
       }
     } catch (e) {
       console.warn('Tool invocation failed (ignored):', e.message);
+      try { fs.writeFileSync(path.join(taskOut, 'tool_exception.txt'), e.stack || String(e)); } catch (e) {}
     }
   } else {
     console.log('No tool command provided; skipping tool invocation.');
@@ -66,9 +80,10 @@ for (const task of tasks) {
     const indexPath = path.join(workspace, 'index.js');
     if (fs.existsSync(indexPath)) {
       console.log('Executing index.js to generate outputs...');
-      const execRes = spawnSync('node', ['index.js'], { cwd: workspace, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
+      const execRes = spawnSync('node', ['index.js'], { cwd: workspace, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024, timeout: 20000 });
       if (execRes.stdout) fs.writeFileSync(path.join(taskOut, 'index_stdout.txt'), execRes.stdout);
       if (execRes.stderr) fs.writeFileSync(path.join(taskOut, 'index_stderr.txt'), execRes.stderr);
+      try { fs.writeFileSync(path.join(taskOut, 'index_exit.json'), JSON.stringify({ status: execRes.status, signal: execRes.signal }, null, 2)); } catch (e) {}
     } else {
       console.log('No index.js present for task, skipping execution.');
     }
