@@ -1,4 +1,4 @@
-name: OpenCode vs Crush — Arena
+name: OpenCode vs Crush - Arena
 
 on:
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
         run: |
           npm ci || true
 
-      - name: Preflight: capture environment and binary version
+      - name: "Preflight: capture environment and binary version"
         run: |
           mkdir -p .github/arena/artifacts/opencode
           echo "PATH=$PATH" > .github/arena/artifacts/opencode/preflight_path.txt
@@ -71,7 +71,7 @@ jobs:
         run: |
           npm ci || true
 
-      - name: Preflight: capture environment and binary version
+      - name: "Preflight: capture environment and binary version"
         run: |
           mkdir -p .github/arena/artifacts/crush
           echo "PATH=$PATH" > .github/arena/artifacts/crush/preflight_path.txt
