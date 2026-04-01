@@ -11,6 +11,8 @@ jobs:
     name: OpenCode (opencode.ai)
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    env:
+      TOOL_TIMEOUT_MS: 300000
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -24,11 +26,22 @@ jobs:
         run: |
           npm ci || true
 
+      - name: Preflight: capture environment and binary version
+        run: |
+          mkdir -p .github/arena/artifacts/opencode
+          echo "PATH=$PATH" > .github/arena/artifacts/opencode/preflight_path.txt
+          if command -v opencode >/dev/null 2>&1; then
+            opencode --version > .github/arena/artifacts/opencode/preflight_version.txt 2>&1 || true
+          else
+            echo "opencode not found in PATH" > .github/arena/artifacts/opencode/preflight_version.txt
+          fi
+
       - name: Run OpenCode arena runner
         env:
           MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
           OPENCODE_CMD: ${{ secrets.OPENCODE_CMD }}
           GITHUB_BOT_PAT: ${{ secrets.GITHUB_BOT_PAT }}
+          TOOL_TIMEOUT_MS: ${{ env.TOOL_TIMEOUT_MS }}
         run: |
           chmod +x .github/arena/run-opencode.sh
           .github/arena/run-opencode.sh
@@ -37,12 +50,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: opencode-artifacts
-          path: .github/arena/artifacts/opencode || true
+          path: .github/arena/artifacts/opencode/**
 
   crush:
     name: Crush (charmbracelet/crush)
     runs-on: ubuntu-latest
     timeout-minutes: 120
+    env:
+      TOOL_TIMEOUT_MS: 300000
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -56,11 +71,22 @@ jobs:
         run: |
           npm ci || true
 
+      - name: Preflight: capture environment and binary version
+        run: |
+          mkdir -p .github/arena/artifacts/crush
+          echo "PATH=$PATH" > .github/arena/artifacts/crush/preflight_path.txt
+          if command -v crush >/dev/null 2>&1; then
+            crush --version > .github/arena/artifacts/crush/preflight_version.txt 2>&1 || true
+          else
+            echo "crush not found in PATH" > .github/arena/artifacts/crush/preflight_version.txt
+          fi
+
       - name: Run Crush arena runner
         env:
           MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
           CRUSH_CMD: ${{ secrets.CRUSH_CMD }}
           GITHUB_BOT_PAT: ${{ secrets.GITHUB_BOT_PAT }}
+          TOOL_TIMEOUT_MS: ${{ env.TOOL_TIMEOUT_MS }}
         run: |
           chmod +x .github/arena/run-crush.sh
           .github/arena/run-crush.sh
@@ -69,7 +95,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: crush-artifacts
-          path: .github/arena/artifacts/crush || true
+          path: .github/arena/artifacts/crush/**
 
   summary:
     name: Compare results
@@ -87,7 +113,6 @@ jobs:
           ls -la arena-results/opencode-artifacts || true
           echo "Crush artifacts:"
           ls -la arena-results/crush-artifacts || true
-          # Basic comparison placeholder
           node ./task-runners/compare.js || true
 
       - name: Upload comparison artifact
