@@ -1,0 +1,7 @@
+tool_check: OK
+timestamp: 2026-04-01T00:48:00-05:00
+checks:
+- write: success
+- exec: success (echo returned: shell_ok)
+- web_search: success (top result: https://docs.openclaw.ai/)
+- web_fetch: success (https://docs.openclaw.ai/ returned 200, contentType: text/markdown)

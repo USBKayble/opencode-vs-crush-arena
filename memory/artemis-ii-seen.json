@@ -1,0 +1,287 @@
+[
+  {
+    "id": "ef80cdaf725131a5e8b3d5084b303a614548d6200bee19bbf6fa9fb9f5e7b227",
+    "source_time": "10:24 a.m.",
+    "summary": "The Artemis II launch team initiated liquid hydrogen (LH2) topping for the SLS core stage.",
+    "normalized": "the artemis ii launch team initiated liquid hydrogen (lh2) topping for the sls core stage.",
+    "seenAt": "2026-04-01T20:38:33.639669+00:00"
+  },
+  {
+    "id": "be2ad66c00b0db0b11005df5afb0aa43c45452aebef7ef4cd7549de9ca89b13f",
+    "source_time": "10:35 a.m.",
+    "summary": "The Artemis II launch team began liquid hydrogen (LH2) replenish for the SLS core stage.",
+    "normalized": "the artemis ii launch team began liquid hydrogen (lh2) replenish for the sls core stage.",
+    "seenAt": "2026-04-01T20:38:33.639682+00:00"
+  },
+  {
+    "id": "81fdb22e74455becada4c6754fa378371d61290cc75268e08d00a55554d553c3",
+    "source_time": "11:09 a.m.",
+    "summary": "NASA teams have begun the topping phase for the interim cryogenic propulsion stage liquid hydrogen (LH2) tank.",
+    "normalized": "nasa teams have begun the topping phase for the interim cryogenic propulsion stage liquid hydrogen (lh2) tank.",
+    "seenAt": "2026-04-01T20:38:33.639688+00:00"
+  },
+  {
+    "id": "69e6afa5bfd89b0dedc5cabeb5dc7e48ae63b91a6d3630dae1d959b95da7ebba",
+    "source_time": "11:15 a.m.",
+    "summary": "NASA teams have transitioned the interim cryogenic propulsion stage liquid hydrogen tank to replenish mode.",
+    "normalized": "nasa teams have transitioned the interim cryogenic propulsion stage liquid hydrogen tank to replenish mode.",
+    "seenAt": "2026-04-01T20:38:33.639691+00:00"
+  },
+  {
+    "id": "9344f3365d3bd01402f4abe091bdbb2f5db2c83a907257f0171634b093cafd0a",
+    "source_time": "11:42 a.m.",
+    "summary": "NASA teams are in fast fill of liquid oxygen (LOX) into the interim cryogenic propulsion stage as part of the Artemis II launch countdown.",
+    "normalized": "nasa teams are in fast fill of liquid oxygen (lox) into the interim cryogenic propulsion stage as part of the artemis ii launch countdown.",
+    "seenAt": "2026-04-01T20:38:33.639696+00:00"
+  },
+  {
+    "id": "c3e8a166723725ffc2ee56d8271b2b1f9aa22bda52c0396573d66d88a2789987",
+    "source_time": "12:03 p.m.",
+    "summary": "NASA teams are now maintaining the liquid oxygen levels in the SLS rocket core stage through replenish mode.",
+    "normalized": "nasa teams are now maintaining the liquid oxygen levels in the sls rocket core stage through replenish mode.",
+    "seenAt": "2026-04-01T20:38:33.639700+00:00"
+  },
+  {
+    "id": "5d9457b8ceed581b8ed90638bb2bd3a7b311edda554185e2a4fe7c54a8f71909",
+    "source_time": "12:23 p.m.",
+    "summary": "Liquid oxygen (LOX) fast fill is now complete for the SLS upper stage.",
+    "normalized": "liquid oxygen (lox) fast fill is now complete for the sls upper stage.",
+    "seenAt": "2026-04-01T20:38:33.639702+00:00"
+  },
+  {
+    "id": "7fed53deb46c70bd52299eeb8291bd8830b80afcfec62a177e17372576d5e8af",
+    "source_time": "12:40 p.m.",
+    "summary": "NASA\u2019s Artemis II astronauts received a final weather briefing inside the Astronaut Crew Quarters.",
+    "normalized": "nasa\u2019s artemis ii astronauts received a final weather briefing inside the astronaut crew quarters.",
+    "seenAt": "2026-04-01T20:38:33.639715+00:00"
+  },
+  {
+    "id": "c40df9e72fd7cb21b83443b625219b02f35ea2f48460d8d00fb44e7a2c8c02d4",
+    "source_time": "12:51 p.m.",
+    "summary": "With NASA teams now maintaining the liquid oxygen levels in the interim cryogenic propulsion, all cryogenic stages of the SLS rocket have transitioned to replenish mode.",
+    "normalized": "with nasa teams now maintaining the liquid oxygen levels in the interim cryogenic propulsion, all cryogenic stages of the sls rocket have transitioned to replenish mode.",
+    "seenAt": "2026-04-01T20:38:33.639721+00:00"
+  },
+  {
+    "id": "d99a727260ac36f9b0e9fe9c8d545714db964b60c55865da02cd27f6165201d2",
+    "source_time": "1:15 p.m.",
+    "summary": "NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA astronaut Jeremy Hansen, are suiting up inside the Astronaut Crew Quarters.",
+    "normalized": "nasa astronauts reid wiseman, victor glover, and christina koch, along with csa astronaut jeremy hansen, are suiting up inside the astronaut crew quarters.",
+    "seenAt": "2026-04-01T20:38:33.639724+00:00"
+  },
+  {
+    "id": "8d898842f8d7a7469c0f4d192ec8aa01478b42edfa6667b7da9f6382b8d5318f",
+    "source_time": "1:36 p.m.",
+    "summary": "NASA\u2019s pad rescue and closeout crew teams have arrived at Launch Complex 39B.",
+    "normalized": "nasa\u2019s pad rescue and closeout crew teams have arrived at launch complex 39b.",
+    "seenAt": "2026-04-01T20:38:33.639758+00:00"
+  },
+  {
+    "id": "afa97b59b684ef5480289683ae5d2686c895e9f9576a766cc9fb41d618b4d9eb",
+    "source_time": "2:00 p.m.",
+    "summary": "Just moments ago, NASA\u2019s Artemis II flight crew began the walk that every NASA astronaut has made since Apollo 7, heading to the elevator and down through the double doors.",
+    "normalized": "just moments ago, nasa\u2019s artemis ii flight crew began the walk that every nasa astronaut has made since apollo 7, heading to the elevator and down through the double doors.",
+    "seenAt": "2026-04-01T20:38:33.639763+00:00"
+  },
+  {
+    "id": "11922d2549809b3b557b2b5c9a5555e87116e0bf793ab96c019cde2cc1ca7fe1",
+    "source_time": "2:14 p.m.",
+    "summary": "NASA\u2019s Artemis II crew arrived at Launch Complex 39B where the SLS rocket with Orion spacecraft stands ready for launch.",
+    "normalized": "nasa\u2019s artemis ii crew arrived at launch complex 39b where the sls rocket with orion spacecraft stands ready for launch.",
+    "seenAt": "2026-04-01T20:38:33.639768+00:00"
+  },
+  {
+    "id": "5c2fe0d0151491b287e25f008dbba7c0bea39b67af3926da117776fe71616ace",
+    "source_time": "2:27 p.m.",
+    "summary": "With assistance from the closeout crew, the Artemis II crew are carefully donning their helmets and gloves.",
+    "normalized": "with assistance from the closeout crew, the artemis ii crew are carefully donning their helmets and gloves.",
+    "seenAt": "2026-04-01T20:38:33.639773+00:00"
+  },
+  {
+    "id": "a1348a0cda2c326d1874e3c6f928eeed14cf35fa476c4a7d7d21aa6ebe4eb625",
+    "source_time": "2:31 p.m.",
+    "summary": "NASA\u2019s Artemis II crew members are boarding the agency\u2019s Orion spacecraft to begin communication checks.",
+    "normalized": "nasa\u2019s artemis ii crew members are boarding the agency\u2019s orion spacecraft to begin communication checks.",
+    "seenAt": "2026-04-01T20:38:33.639777+00:00"
+  },
+  {
+    "id": "11dc50472df3acd6afa72a70dee2f56bfb1478306f65fdc6770d2c6dc5e07688",
+    "source_time": "3:17 p.m.",
+    "summary": "NASA\u2019s Artemis II closeout crew is now completing preparing and closing the crew module hatch to the Orion spacecraft.",
+    "normalized": "nasa\u2019s artemis ii closeout crew is now completing preparing and closing the crew module hatch to the orion spacecraft.",
+    "seenAt": "2026-04-01T20:38:33.639782+00:00"
+  },
+  {
+    "id": "e9a5acfb15c7c9789264a210543e9d3aab055f7d3aa7140acbb0488101645c27",
+    "source_time": "3:39 p.m.",
+    "summary": "NASA engineers have conducted counterbalance mechanism operations and are now performing hatch seal pressure decay checks inside the White Room.",
+    "normalized": "nasa engineers have conducted counterbalance mechanism operations and are now performing hatch seal pressure decay checks inside the white room.",
+    "seenAt": "2026-04-01T20:38:33.639787+00:00"
+  },
+  {
+    "id": "9ce08b20589f5a58ecd3a92385ddf373c3591dcf2699e2d37b5ef2d890230649",
+    "source_time": "4:02 p.m.",
+    "summary": "Technicians began installing the crew module hatch service panel on the Orion spacecraft.",
+    "normalized": "technicians began installing the crew module hatch service panel on the orion spacecraft.",
+    "seenAt": "2026-04-01T20:38:33.639790+00:00"
+  },
+  {
+    "id": "69ff73cd2f1e96b96554c9df635c9e2ab6a2ebd0e9017ebe7a84961c756f5395",
+    "source_time": "2:14 p.m.",
+    "summary": "NASA\u2019s Artemis II crew NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian Space Agency) astronaut Jeremy Hansen, arrived at Launch Complex 39B at the agency\u2019s Kennedy Space Center in Florida, where the",
+    "seenAt": "2026-04-01T20:41:42.895154Z"
+  },
+  {
+    "id": "2cf0fee8ba59af9d5bbb364b40ccafe166340844cae52f76fa08ed35280a9f3d",
+    "source_time": "2:27 p.m.",
+    "summary": "With assistance from the closeout crew, the Artemis II crew are carefully donning their helmets and gloves \u2013 finalizing suit integrity checks before boarding the Orion spacecraft.",
+    "seenAt": "2026-04-01T20:41:42.895167Z"
+  },
+  {
+    "id": "195262d195c70c615013b613f6714b36e7c9602140d6e79213ac7df978c20572",
+    "source_time": "2:31 p.m.",
+    "summary": "NASA\u2019s Artemis II crew members are boarding the agency\u2019s Orion spacecraft to begin communication checks to confirm voice links with mission control and onboard systems.",
+    "seenAt": "2026-04-01T20:41:42.895171Z"
+  },
+  {
+    "id": "7342bab987982b8a1010987d46deb5734b68bf594fb1cfa783d5240fefc438ab",
+    "source_time": "3:17 p.m.",
+    "summary": "NASA\u2019s Artemis II closeout crew is now completing one of the most critical steps before launch: preparing and closing the crew module hatch to the Orion spacecraft. Inside the White Room at Launch Complex 39B, the closeout crew is working m",
+    "seenAt": "2026-04-01T20:41:42.895173Z"
+  },
+  {
+    "id": "33eed580d9276f615317c2a5010189f82cb5d35a4545e8e7ff447c1486740650",
+    "source_time": "3:39 p.m.",
+    "summary": "NASA engineers have conducted counterbalance mechanism operations and are now performing hatch seal pressure decay checks inside the White Room at Launch Complex 39B. These steps ensure Orion\u2019s hatch maintains proper pressure integrity and",
+    "seenAt": "2026-04-01T20:41:42.895176Z"
+  },
+  {
+    "id": "fdd9cc4fe822391f0e04c68eec7cd84eff1a3a606c16721f0be035258c3a720c",
+    "source_time": "4:02 p.m.",
+    "summary": "Technicians began installing the crew module hatch service panel on the Orion spacecraft, an important step in final launch preparations. This panel protects key connections and ensures the hatch area is secure for flight.",
+    "seenAt": "2026-04-01T20:41:42.895178Z"
+  },
+  {
+    "id": "09c3d48d1376e434bf222f5274ec9c149d770e27b3daaf0a0bb0002613271378",
+    "source_time": "4:34 p.m. EDT",
+    "summary": "Eastern Range working issue with Artemis 2 flight termination system",
+    "normalized": "eastern range working issue with artemis 2 flight termination system",
+    "seenAt": "2026-04-01T20:45:00Z"
+  },
+  {
+    "id": "16e2d60f573d3fd212589eca9cdc35c85ce368b5ba668e0dcc567262728a804e",
+    "source_time": "4:24 p.m. EDT",
+    "summary": "What will Artemis 2 teach us about the moon?",
+    "normalized": "what will artemis 2 teach us about the moon?",
+    "seenAt": "2026-04-01T20:45:00Z"
+  },
+  {
+    "id": "9d14738951e64fc2120047d4ab76165839e3150f00779adfda211651b5bbb05a",
+    "source_time": "3:10 p.m. EDT",
+    "summary": "All Artemis 2 astronauts are inside their spacecraft",
+    "normalized": "all artemis 2 astronauts are inside their spacecraft",
+    "seenAt": "2026-04-01T20:45:00Z"
+  },
+  {
+    "id": "6bf6d344bce36061e09fa1da08f763ff7b0d5dc27fac3f083cd384bbfbc629fb",
+    "source_time": "9:36 a.m.",
+    "summary": "The Artemis II launch team has begun the liquid hydrogen chilldown for the interim cryogenic propulsion stage, or SLS (Space Launch System) rocket upper stage.",
+    "seenAt": "2026-04-01T21:02:17.111459Z"
+  },
+  {
+    "id": "b1e8a449b8ddec68f76eaa13a8625d621da7f3731a9c89d32df15f873f51eb63",
+    "source_time": "9:52 a.m.",
+    "summary": "The Artemis II launch team transitioned to the fast fill of liquid hydrogen (LH2) for the interim cryogenic propulsion stage, or SLS (Space Launch System) rocket upper stage.",
+    "seenAt": "2026-04-01T21:02:17.111518Z"
+  },
+  {
+    "id": "64aac4d50c81dbd229015d5e980533324664f9f7f62faaccacf049896ba06e58",
+    "source_time": "10:24 a.m.",
+    "summary": "The Artemis II launch team initiated liquid hydrogen (LH2) topping for the SLS (Space Launch System) rocket core stage.",
+    "seenAt": "2026-04-01T21:02:17.111549Z"
+  },
+  {
+    "id": "fdcdb1d86a9cc7c2055e921ea55f9440b9d65dfeb509f9b174a38af0161e65ae",
+    "source_time": "10:35 a.m.",
+    "summary": "The Artemis II launch team began the liquid hydrogen (LH2) replenish for the SLS (Space Launch System) rocket core stage.",
+    "seenAt": "2026-04-01T21:02:17.111571Z"
+  },
+  {
+    "id": "0df875916637ec81bd8b7294cae62892a5be1f1450594237d81ae50565e85f34",
+    "source_time": "11:09 a.m.",
+    "summary": "NASA teams have begun the topping phase for the interim cryogenic propulsion stage liquid hydrogen (LH2) tank. This critical step occurs after successful chilldown and vent-and-relief checks, ensuring the tank reaches full capacity with super-cold liquid hydrogen.",
+    "seenAt": "2026-04-01T21:02:17.111590Z"
+  },
+  {
+    "id": "635e2a8f1a4c1f7d387cf523614bf5317f62bdafa3b5bc95da2e488c3bf3d526",
+    "source_time": "11:15 a.m.",
+    "summary": "NASA teams have transitioned the interim cryogenic propulsion stage liquid hydrogen tank to replenish mode during the Artemis II countdown. This phase follows the successful topping process and ensures the tank remains at flight-ready levels all the way to launch.",
+    "seenAt": "2026-04-01T21:02:17.111608Z"
+  },
+  {
+    "id": "9ea52120c48ad07154fbf63f2cd92ef82d77f0327f7bf736ebb6b6377e17d4ea",
+    "source_time": "11:42 a.m.",
+    "summary": "NASA teams are in fast fill of liquid oxygen (LOX) into the interim cryogenic propulsion stage as part of the Artemis II launch countdown. This phase rapidly loads the oxidizer after chilldown is complete, bringing the SLS (Space Launch System) rocket upper stage closer to full readiness for its role in sending the Orion spacecraft into a high Earth orbit ahead of a proximity operations demonstration test and Orion\u2019s translunar injection burn.",
+    "seenAt": "2026-04-01T21:02:17.111631Z"
+  },
+  {
+    "id": "003c1c764d0d43131d969fe503e86d1f32ed7cc91ead0fe2de02bf50822560eb",
+    "source_time": "12:03 p.m.",
+    "summary": "NASA teams are now maintaining the liquid oxygen levels in the SLS (Space Launch System) rocket core stage through replenish mode. This phase follows the completion of liquid oxygen fast fill and topping, ensuring the oxidizer remains at flight-ready levels throughout the final countdown.",
+    "seenAt": "2026-04-01T21:02:17.111648Z"
+  },
+  {
+    "id": "34937a1d35b6917871c0e19f302a552184abfb35fbcc338047d082251e214528",
+    "source_time": "12:23 p.m.",
+    "summary": "Liquid oxygen (LOX) fast fill is now complete for the SLS (Space Launch System) upper stage, marking another major milestone in tanking operations. Teams have confirmed the upper stage is in good shape and are proceeding with the LOX vent and relief test. This step helps verify proper pressure regulation and ensures the system is ready to transition into topping and, later, replenish operations.",
+    "seenAt": "2026-04-01T21:02:17.111665Z"
+  },
+  {
+    "id": "c2b8dba0e40ab271a7c6f9d0536fe4d92937439d3867bf93eaa3e4085bcc1c4e",
+    "source_time": "12:40 p.m.",
+    "summary": "NASA\u2019s Artemis II astronauts received a final weather briefing inside the Astronaut Crew Quarters of the Neil A. Armstrong Operations and Checkout Building at the agency\u2019s Kennedy Space Center in Florida, as part of prelaunch preparations.",
+    "seenAt": "2026-04-01T21:02:17.111683Z"
+  },
+  {
+    "id": "724174ff9021525923dffedcb8d64c5a78cbf6523ef34ed48906dfa3a3015203",
+    "source_time": "12:51 p.m.",
+    "summary": "With NASA teams now maintaining the liquid oxygen levels in the interim cryogenic propulsion, all cryogenic stages of the SLS (Space Launch System) rocket have transitioned to replenish mode during the Artemis II launch countdown. This includes the core stage and SLS upper stage, ensuring both liquid hydrogen and liquid oxygen tanks remain at flight-ready levels.",
+    "seenAt": "2026-04-01T21:02:17.111699Z"
+  },
+  {
+    "id": "aeb07d15875f253bc90addb01ddfd943e5c2d8afe1f972570c3a00fd48c16b78",
+    "source_time": "1:15 p.m.",
+    "summary": "NASA astronauts Reid Wiseman, commander; Victor Glover, pilot; and Christina Koch, mission specialist; along with CSA (Canadian Space Agency) astronaut Jeremy Hansen, mission specialist, are suiting up inside the Astronaut Crew Quarters of the Neil A. Armstrong Operations and Checkout Building at the agency\u2019s Kennedy Space Center in Florida.",
+    "seenAt": "2026-04-01T21:02:17.111724Z"
+  },
+  {
+    "id": "291bdfc2d9dbf33f9bdd802d062e449ec3eb371939312ba52720e3eeb54aabfb",
+    "source_time": "1:36 p.m.",
+    "summary": "NASA\u2019s pad rescue and closeout crew teams have arrived at Launch Complex 39B at the agency\u2019s Kennedy Space Center in Florida to ensure safety and readiness during the critical fueling operations. These specialized teams play a vital role in protecting personnel and hardware throughout the countdown.",
+    "seenAt": "2026-04-01T21:02:17.111770Z"
+  },
+  {
+    "id": "11b60512efb77c11d298d63fefb630db7204a487da9934046a3c7c6f2f855c2c",
+    "source_time": "2:14 p.m.",
+    "summary": "NASA\u2019s Artemis II crew NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, along with CSA (Canadian Space Agency) astronaut Jeremy Hansen, arrived at Launch Complex 39B at the agency\u2019s Kennedy Space Center in Florida, where the agency\u2019s SLS (Space Launch System) rocket with Orion spacecraft atop stands ready for launch. The opening of today\u2019s launch window is slated for just over 4 hours from now, at 6:24 p.m. EDT.",
+    "seenAt": "2026-04-01T21:02:17.111790Z"
+  },
+  {
+    "id": "b05ce7e2b7eed958a2433aa3fdcc9f93bf80642c40d0b0b3b184e860dff0b38e",
+    "source_time": "3:17 p.m.",
+    "summary": "NASA\u2019s Artemis II closeout crew is now completing one of the most critical steps before launch: preparing and closing the crew module hatch to the Orion spacecraft. Inside the White Room at Launch Complex 39B, the closeout crew is working meticulously to inspect seals, secure fasteners, and verify that the hatch is airtight.",
+    "seenAt": "2026-04-01T21:02:17.111816Z"
+  },
+  {
+    "id": "dddca435e2d322e638c3f250e0b972becfb99d759ac2592f3389a0ac7ab761ab",
+    "source_time": "3:39 p.m.",
+    "summary": "NASA engineers have conducted counterbalance mechanism operations and are now performing hatch seal pressure decay checks inside the White Room at Launch Complex 39B. These steps ensure Orion\u2019s hatch maintains proper pressure integrity and that the counterbalance system functions as designed for launch conditions.",
+    "seenAt": "2026-04-01T21:02:17.111835Z"
+  },
+  {
+    "id": "0f9b620b8f367bf73c9b14785b91a1296f68520e9cfda7b50d2fd2e4c12f3b4d",
+    "source_time": "5:00 p.m.",
+    "summary": "Although the countdown to today\u2019s Artemis II launch is continuing to progress, the Eastern Range has identified an issue that they are currently working to resolve related to their communication with the flight termination system. The flight termination system is a safety system that allows engineers on the ground to send a signal to destruct the rocket if it were to veer off course during ascent, to protect public safety. Without assurance that this system would work if needed, today\u2019s launch would be no-go. However, engineers have devised a way to verify the system and are currently preparing to test this solution.",
+    "seenAt": "2026-04-01T21:02:17.111861Z"
+  }
+]

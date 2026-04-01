@@ -1,0 +1,4 @@
+/node_modules
+/.github/arena/artifacts
+.env
+.DS_Store
