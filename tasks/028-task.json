@@ -1,0 +1,12 @@
+{
+  "id": "028-task",
+  "description": "Produce out.txt containing 'task-028-ok'",
+  "difficulty": 28,
+  "files": {
+    "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+  },
+  "expected": {
+    "file": "out.txt",
+    "content": "task-028-ok"
+  }
+}
