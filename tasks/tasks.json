@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "001-task",
+    "description": "Produce out.txt containing 'task-001-ok'",
+    "difficulty": 1,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-001-ok"
+    }
+  },
+  {
+    "id": "002-task",
+    "description": "Produce out.txt containing 'task-002-ok'",
+    "difficulty": 2,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-002-ok"
+    }
+  },
+  {
+    "id": "003-task",
+    "description": "Produce out.txt containing 'task-003-ok'",
+    "difficulty": 3,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-003-ok"
+    }
+  },
+  {
+    "id": "004-task",
+    "description": "Produce out.txt containing 'task-004-ok'",
+    "difficulty": 4,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-004-ok"
+    }
+  },
+  {
+    "id": "005-task",
+    "description": "Produce out.txt containing 'task-005-ok'",
+    "difficulty": 5,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-005-ok"
+    }
+  },
+  {
+    "id": "006-task",
+    "description": "Produce out.txt containing 'task-006-ok'",
+    "difficulty": 6,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-006-ok"
+    }
+  },
+  {
+    "id": "007-task",
+    "description": "Produce out.txt containing 'task-007-ok'",
+    "difficulty": 7,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-007-ok"
+    }
+  },
+  {
+    "id": "008-task",
+    "description": "Produce out.txt containing 'task-008-ok'",
+    "difficulty": 8,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-008-ok"
+    }
+  },
+  {
+    "id": "009-task",
+    "description": "Produce out.txt containing 'task-009-ok'",
+    "difficulty": 9,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-009-ok"
+    }
+  },
+  {
+    "id": "010-task",
+    "description": "Produce out.txt containing 'task-010-ok'",
+    "difficulty": 10,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-010-ok"
+    }
+  },
+  {
+    "id": "011-task",
+    "description": "Produce out.txt containing 'task-011-ok'",
+    "difficulty": 11,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-011-ok"
+    }
+  },
+  {
+    "id": "012-task",
+    "description": "Produce out.txt containing 'task-012-ok'",
+    "difficulty": 12,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-012-ok"
+    }
+  },
+  {
+    "id": "013-task",
+    "description": "Produce out.txt containing 'task-013-ok'",
+    "difficulty": 13,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-013-ok"
+    }
+  },
+  {
+    "id": "014-task",
+    "description": "Produce out.txt containing 'task-014-ok'",
+    "difficulty": 14,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-014-ok"
+    }
+  },
+  {
+    "id": "015-task",
+    "description": "Produce out.txt containing 'task-015-ok'",
+    "difficulty": 15,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-015-ok"
+    }
+  },
+  {
+    "id": "016-task",
+    "description": "Produce out.txt containing 'task-016-ok'",
+    "difficulty": 16,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-016-ok"
+    }
+  },
+  {
+    "id": "017-task",
+    "description": "Produce out.txt containing 'task-017-ok'",
+    "difficulty": 17,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-017-ok"
+    }
+  },
+  {
+    "id": "018-task",
+    "description": "Produce out.txt containing 'task-018-ok'",
+    "difficulty": 18,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-018-ok"
+    }
+  },
+  {
+    "id": "019-task",
+    "description": "Produce out.txt containing 'task-019-ok'",
+    "difficulty": 19,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-019-ok"
+    }
+  },
+  {
+    "id": "020-task",
+    "description": "Produce out.txt containing 'task-020-ok'",
+    "difficulty": 20,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-020-ok"
+    }
+  },
+  {
+    "id": "021-task",
+    "description": "Produce out.txt containing 'task-021-ok'",
+    "difficulty": 21,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-021-ok"
+    }
+  },
+  {
+    "id": "022-task",
+    "description": "Produce out.txt containing 'task-022-ok'",
+    "difficulty": 22,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-022-ok"
+    }
+  },
+  {
+    "id": "023-task",
+    "description": "Produce out.txt containing 'task-023-ok'",
+    "difficulty": 23,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-023-ok"
+    }
+  },
+  {
+    "id": "024-task",
+    "description": "Produce out.txt containing 'task-024-ok'",
+    "difficulty": 24,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-024-ok"
+    }
+  },
+  {
+    "id": "025-task",
+    "description": "Produce out.txt containing 'task-025-ok'",
+    "difficulty": 25,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-025-ok"
+    }
+  },
+  {
+    "id": "026-task",
+    "description": "Produce out.txt containing 'task-026-ok'",
+    "difficulty": 26,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-026-ok"
+    }
+  },
+  {
+    "id": "027-task",
+    "description": "Produce out.txt containing 'task-027-ok'",
+    "difficulty": 27,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-027-ok"
+    }
+  },
+  {
+    "id": "028-task",
+    "description": "Produce out.txt containing 'task-028-ok'",
+    "difficulty": 28,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-028-ok"
+    }
+  },
+  {
+    "id": "029-task",
+    "description": "Produce out.txt containing 'task-029-ok'",
+    "difficulty": 29,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-029-ok"
+    }
+  },
+  {
+    "id": "030-task",
+    "description": "Produce out.txt containing 'task-030-ok'",
+    "difficulty": 30,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-030-ok"
+    }
+  },
+  {
+    "id": "031-task",
+    "description": "Produce out.txt containing 'task-031-ok'",
+    "difficulty": 31,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-031-ok"
+    }
+  },
+  {
+    "id": "032-task",
+    "description": "Produce out.txt containing 'task-032-ok'",
+    "difficulty": 32,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-032-ok"
+    }
+  },
+  {
+    "id": "033-task",
+    "description": "Produce out.txt containing 'task-033-ok'",
+    "difficulty": 33,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-033-ok"
+    }
+  },
+  {
+    "id": "034-task",
+    "description": "Produce out.txt containing 'task-034-ok'",
+    "difficulty": 34,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-034-ok"
+    }
+  },
+  {
+    "id": "035-task",
+    "description": "Produce out.txt containing 'task-035-ok'",
+    "difficulty": 35,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-035-ok"
+    }
+  },
+  {
+    "id": "036-task",
+    "description": "Produce out.txt containing 'task-036-ok'",
+    "difficulty": 36,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-036-ok"
+    }
+  },
+  {
+    "id": "037-task",
+    "description": "Produce out.txt containing 'task-037-ok'",
+    "difficulty": 37,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-037-ok"
+    }
+  },
+  {
+    "id": "038-task",
+    "description": "Produce out.txt containing 'task-038-ok'",
+    "difficulty": 38,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-038-ok"
+    }
+  },
+  {
+    "id": "039-task",
+    "description": "Produce out.txt containing 'task-039-ok'",
+    "difficulty": 39,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-039-ok"
+    }
+  },
+  {
+    "id": "040-task",
+    "description": "Produce out.txt containing 'task-040-ok'",
+    "difficulty": 40,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-040-ok"
+    }
+  },
+  {
+    "id": "041-task",
+    "description": "Produce out.txt containing 'task-041-ok'",
+    "difficulty": 41,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-041-ok"
+    }
+  },
+  {
+    "id": "042-task",
+    "description": "Produce out.txt containing 'task-042-ok'",
+    "difficulty": 42,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-042-ok"
+    }
+  },
+  {
+    "id": "043-task",
+    "description": "Produce out.txt containing 'task-043-ok'",
+    "difficulty": 43,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-043-ok"
+    }
+  },
+  {
+    "id": "044-task",
+    "description": "Produce out.txt containing 'task-044-ok'",
+    "difficulty": 44,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-044-ok"
+    }
+  },
+  {
+    "id": "045-task",
+    "description": "Produce out.txt containing 'task-045-ok'",
+    "difficulty": 45,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-045-ok"
+    }
+  },
+  {
+    "id": "046-task",
+    "description": "Produce out.txt containing 'task-046-ok'",
+    "difficulty": 46,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-046-ok"
+    }
+  },
+  {
+    "id": "047-task",
+    "description": "Produce out.txt containing 'task-047-ok'",
+    "difficulty": 47,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-047-ok"
+    }
+  },
+  {
+    "id": "048-task",
+    "description": "Produce out.txt containing 'task-048-ok'",
+    "difficulty": 48,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-048-ok"
+    }
+  },
+  {
+    "id": "049-task",
+    "description": "Produce out.txt containing 'task-049-ok'",
+    "difficulty": 49,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-049-ok"
+    }
+  },
+  {
+    "id": "050-task",
+    "description": "Produce out.txt containing 'task-050-ok'",
+    "difficulty": 50,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-050-ok"
+    }
+  },
+  {
+    "id": "051-task",
+    "description": "Produce out.txt containing 'task-051-ok'",
+    "difficulty": 51,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-051-ok"
+    }
+  },
+  {
+    "id": "052-task",
+    "description": "Produce out.txt containing 'task-052-ok'",
+    "difficulty": 52,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-052-ok"
+    }
+  },
+  {
+    "id": "053-task",
+    "description": "Produce out.txt containing 'task-053-ok'",
+    "difficulty": 53,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-053-ok"
+    }
+  },
+  {
+    "id": "054-task",
+    "description": "Produce out.txt containing 'task-054-ok'",
+    "difficulty": 54,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-054-ok"
+    }
+  },
+  {
+    "id": "055-task",
+    "description": "Produce out.txt containing 'task-055-ok'",
+    "difficulty": 55,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-055-ok"
+    }
+  },
+  {
+    "id": "056-task",
+    "description": "Produce out.txt containing 'task-056-ok'",
+    "difficulty": 56,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-056-ok"
+    }
+  },
+  {
+    "id": "057-task",
+    "description": "Produce out.txt containing 'task-057-ok'",
+    "difficulty": 57,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-057-ok"
+    }
+  },
+  {
+    "id": "058-task",
+    "description": "Produce out.txt containing 'task-058-ok'",
+    "difficulty": 58,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-058-ok"
+    }
+  },
+  {
+    "id": "059-task",
+    "description": "Produce out.txt containing 'task-059-ok'",
+    "difficulty": 59,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-059-ok"
+    }
+  },
+  {
+    "id": "060-task",
+    "description": "Produce out.txt containing 'task-060-ok'",
+    "difficulty": 60,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-060-ok"
+    }
+  },
+  {
+    "id": "061-task",
+    "description": "Produce out.txt containing 'task-061-ok'",
+    "difficulty": 61,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-061-ok"
+    }
+  },
+  {
+    "id": "062-task",
+    "description": "Produce out.txt containing 'task-062-ok'",
+    "difficulty": 62,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-062-ok"
+    }
+  },
+  {
+    "id": "063-task",
+    "description": "Produce out.txt containing 'task-063-ok'",
+    "difficulty": 63,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-063-ok"
+    }
+  },
+  {
+    "id": "064-task",
+    "description": "Produce out.txt containing 'task-064-ok'",
+    "difficulty": 64,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-064-ok"
+    }
+  },
+  {
+    "id": "065-task",
+    "description": "Produce out.txt containing 'task-065-ok'",
+    "difficulty": 65,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-065-ok"
+    }
+  },
+  {
+    "id": "066-task",
+    "description": "Produce out.txt containing 'task-066-ok'",
+    "difficulty": 66,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-066-ok"
+    }
+  },
+  {
+    "id": "067-task",
+    "description": "Produce out.txt containing 'task-067-ok'",
+    "difficulty": 67,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-067-ok"
+    }
+  },
+  {
+    "id": "068-task",
+    "description": "Produce out.txt containing 'task-068-ok'",
+    "difficulty": 68,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-068-ok"
+    }
+  },
+  {
+    "id": "069-task",
+    "description": "Produce out.txt containing 'task-069-ok'",
+    "difficulty": 69,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-069-ok"
+    }
+  },
+  {
+    "id": "070-task",
+    "description": "Produce out.txt containing 'task-070-ok'",
+    "difficulty": 70,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-070-ok"
+    }
+  },
+  {
+    "id": "071-task",
+    "description": "Produce out.txt containing 'task-071-ok'",
+    "difficulty": 71,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-071-ok"
+    }
+  },
+  {
+    "id": "072-task",
+    "description": "Produce out.txt containing 'task-072-ok'",
+    "difficulty": 72,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-072-ok"
+    }
+  },
+  {
+    "id": "073-task",
+    "description": "Produce out.txt containing 'task-073-ok'",
+    "difficulty": 73,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-073-ok"
+    }
+  },
+  {
+    "id": "074-task",
+    "description": "Produce out.txt containing 'task-074-ok'",
+    "difficulty": 74,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-074-ok"
+    }
+  },
+  {
+    "id": "075-task",
+    "description": "Produce out.txt containing 'task-075-ok'",
+    "difficulty": 75,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-075-ok"
+    }
+  },
+  {
+    "id": "076-task",
+    "description": "Produce out.txt containing 'task-076-ok'",
+    "difficulty": 76,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-076-ok"
+    }
+  },
+  {
+    "id": "077-task",
+    "description": "Produce out.txt containing 'task-077-ok'",
+    "difficulty": 77,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-077-ok"
+    }
+  },
+  {
+    "id": "078-task",
+    "description": "Produce out.txt containing 'task-078-ok'",
+    "difficulty": 78,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-078-ok"
+    }
+  },
+  {
+    "id": "079-task",
+    "description": "Produce out.txt containing 'task-079-ok'",
+    "difficulty": 79,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-079-ok"
+    }
+  },
+  {
+    "id": "080-task",
+    "description": "Produce out.txt containing 'task-080-ok'",
+    "difficulty": 80,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-080-ok"
+    }
+  },
+  {
+    "id": "081-task",
+    "description": "Produce out.txt containing 'task-081-ok'",
+    "difficulty": 81,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-081-ok"
+    }
+  },
+  {
+    "id": "082-task",
+    "description": "Produce out.txt containing 'task-082-ok'",
+    "difficulty": 82,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-082-ok"
+    }
+  },
+  {
+    "id": "083-task",
+    "description": "Produce out.txt containing 'task-083-ok'",
+    "difficulty": 83,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-083-ok"
+    }
+  },
+  {
+    "id": "084-task",
+    "description": "Produce out.txt containing 'task-084-ok'",
+    "difficulty": 84,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-084-ok"
+    }
+  },
+  {
+    "id": "085-task",
+    "description": "Produce out.txt containing 'task-085-ok'",
+    "difficulty": 85,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-085-ok"
+    }
+  },
+  {
+    "id": "086-task",
+    "description": "Produce out.txt containing 'task-086-ok'",
+    "difficulty": 86,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-086-ok"
+    }
+  },
+  {
+    "id": "087-task",
+    "description": "Produce out.txt containing 'task-087-ok'",
+    "difficulty": 87,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-087-ok"
+    }
+  },
+  {
+    "id": "088-task",
+    "description": "Produce out.txt containing 'task-088-ok'",
+    "difficulty": 88,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-088-ok"
+    }
+  },
+  {
+    "id": "089-task",
+    "description": "Produce out.txt containing 'task-089-ok'",
+    "difficulty": 89,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-089-ok"
+    }
+  },
+  {
+    "id": "090-task",
+    "description": "Produce out.txt containing 'task-090-ok'",
+    "difficulty": 90,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-090-ok"
+    }
+  },
+  {
+    "id": "091-task",
+    "description": "Produce out.txt containing 'task-091-ok'",
+    "difficulty": 91,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-091-ok"
+    }
+  },
+  {
+    "id": "092-task",
+    "description": "Produce out.txt containing 'task-092-ok'",
+    "difficulty": 92,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-092-ok"
+    }
+  },
+  {
+    "id": "093-task",
+    "description": "Produce out.txt containing 'task-093-ok'",
+    "difficulty": 93,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-093-ok"
+    }
+  },
+  {
+    "id": "094-task",
+    "description": "Produce out.txt containing 'task-094-ok'",
+    "difficulty": 94,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-094-ok"
+    }
+  },
+  {
+    "id": "095-task",
+    "description": "Produce out.txt containing 'task-095-ok'",
+    "difficulty": 95,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-095-ok"
+    }
+  },
+  {
+    "id": "096-task",
+    "description": "Produce out.txt containing 'task-096-ok'",
+    "difficulty": 96,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-096-ok"
+    }
+  },
+  {
+    "id": "097-task",
+    "description": "Produce out.txt containing 'task-097-ok'",
+    "difficulty": 97,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-097-ok"
+    }
+  },
+  {
+    "id": "098-task",
+    "description": "Produce out.txt containing 'task-098-ok'",
+    "difficulty": 98,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-098-ok"
+    }
+  },
+  {
+    "id": "099-task",
+    "description": "Produce out.txt containing 'task-099-ok'",
+    "difficulty": 99,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-099-ok"
+    }
+  },
+  {
+    "id": "100-task",
+    "description": "Produce out.txt containing 'task-100-ok'",
+    "difficulty": 100,
+    "files": {
+      "index.js": "const fs=require('fs'); fs.writeFileSync('out.txt','todo');\n"
+    },
+    "expected": {
+      "file": "out.txt",
+      "content": "task-100-ok"
+    }
+  }
+]
