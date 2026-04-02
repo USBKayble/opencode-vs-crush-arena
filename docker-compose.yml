@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  arena:
+    build: .
+    working_dir: /app
+
+  opencode:
+    extends:
+      service: arena
+    command: >
+      sh -c "npm i -g opencode-ai@latest 2>/dev/null || true &&
+             node task-runners/run-all-tasks.js --tool opencode --cmd 'opencode' --out /app/.github/arena/artifacts/opencode"
+    volumes:
+      - ./artifacts:/app/.github/arena/artifacts
+    environment:
+      - TOOL_TIMEOUT_MS=${TOOL_TIMEOUT_MS:-300000}
+      - OPENCODE_CMD=${OPENCODE_CMD:-}
+
+  crush:
+    extends:
+      service: arena
+    command: >
+      sh -c "export GOBIN=/root/.local/bin && mkdir -p $$GOBIN && 
+             go install github.com/charmbracelet/crush@latest 2>/dev/null || true &&
+             node task-runners/run-all-tasks.js --tool crush --cmd '$$GOBIN/crush' --out /app/.github/arena/artifacts/crush"
+    volumes:
+      - ./artifacts:/app/.github/arena/artifacts
+    environment:
+      - TOOL_TIMEOUT_MS=${TOOL_TIMEOUT_MS:-300000}
+      - CRUSH_CMD=${CRUSH_CMD:-}
+
+  run-opencode:
+    extends:
+      service: arena
+    command: .github/arena/run-opencode.sh
+    volumes:
+      - ./artifacts:/app/.github/arena/artifacts
+    environment:
+      - TOOL_TIMEOUT_MS=${TOOL_TIMEOUT_MS:-300000}
+      - OPENCODE_CMD=${OPENCODE_CMD:-}
+      - MODEL_API_KEY=${MODEL_API_KEY:-}
+
+  run-crush:
+    extends:
+      service: arena
+    command: .github/arena/run-crush.sh
+    volumes:
+      - ./artifacts:/app/.github/arena/artifacts
+    environment:
+      - TOOL_TIMEOUT_MS=${TOOL_TIMEOUT_MS:-300000}
+      - CRUSH_CMD=${CRUSH_CMD:-}
+      - MODEL_API_KEY=${MODEL_API_KEY:-}
+
+  compare:
+    extends:
+      service: arena
+    command: node task-runners/compare.js
+    volumes:
+      - ./artifacts:/app/arena-results
+    profiles:
+      - compare
