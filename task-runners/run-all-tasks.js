@@ -57,18 +57,31 @@ for (const task of tasks) {
   if (cmd && cmd.length > 0) {
     try {
       console.log('Attempting to invoke tool command in workspace:', cmd, `(timeout ${TOOL_TIMEOUT_MS}ms)`);
-      // Pass the task description to the tool via stdin
-      const taskPrompt = `Task: ${tid}\nDescription: ${task.description}\n\nWorking directory: ${workspace}\n\nProduce the required output file as described in the task.`;
+      
+      // Copy config files to workspace for tools that need them
+      const configSrc = path.join(__dirname, '..', 'opencode.json');
+      if (fs.existsSync(configSrc) && (tool === 'opencode' || cmd.includes('opencode'))) {
+        const configDest = path.join(workspace, 'opencode.json');
+        fs.copyFileSync(configSrc, configDest);
+        console.log('Copied opencode.json to workspace');
+      }
+      
+      // Build the command based on tool type
+      let fullCmd = cmd;
+      if (tool === 'opencode' || cmd.includes('opencode')) {
+        // For OpenCode, use 'run' subcommand with the task prompt
+        const taskPrompt = `Task: ${tid}\nDescription: ${task.description}\n\nWorking directory: ${workspace}\n\nProduce the required output file as described in the task.`;
+        fullCmd = `echo "${taskPrompt.replace(/"/g, '\\"')}" | ${cmd} run --no-tui`;
+      }
       
       // Capture stdout/stderr to files so we can inspect crashes and errors
-      const r = spawnSync(cmd, { 
+      const r = spawnSync(fullCmd, { 
         cwd: workspace, 
         shell: true, 
         encoding: 'utf8', 
         maxBuffer: 50 * 1024 * 1024, 
         timeout: TOOL_TIMEOUT_MS, 
-        env: envLocal,
-        input: taskPrompt
+        env: envLocal
       });
       // write outputs to files for debugging
       try { fs.writeFileSync(path.join(taskOut, 'tool_stdout.txt'), r.stdout || ''); } catch (e) {}

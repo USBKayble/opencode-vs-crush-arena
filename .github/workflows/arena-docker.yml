@@ -59,6 +59,7 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}/.github/arena/artifacts:/app/.github/arena/artifacts \
             -e TOOL_TIMEOUT_MS=${{ env.TOOL_TIMEOUT_MS }} \
+            -e MISTRAL_API_KEY=${{ secrets.MISTRAL_API_KEY }} \
             -e OPENCODE_CMD=opencode \
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}@${{ env.IMAGE_DIGEST }} \
             node task-runners/run-all-tasks.js --tool opencode --cmd opencode --out .github/arena/artifacts/opencode

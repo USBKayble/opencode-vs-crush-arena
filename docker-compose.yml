@@ -16,6 +16,7 @@ services:
     environment:
       - TOOL_TIMEOUT_MS=${TOOL_TIMEOUT_MS:-300000}
       - OPENCODE_CMD=${OPENCODE_CMD:-}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY:-}
 
   crush:
     extends:
@@ -40,6 +41,7 @@ services:
       - TOOL_TIMEOUT_MS=${TOOL_TIMEOUT_MS:-300000}
       - OPENCODE_CMD=${OPENCODE_CMD:-}
       - MODEL_API_KEY=${MODEL_API_KEY:-}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY:-}
 
   run-crush:
     extends:

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "mistral/devstral-medium-latest",
+  "provider": {
+    "mistral": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Mistral",
+      "options": {
+        "baseURL": "https://api.mistral.ai/v1",
+        "apiKey": "{env:MISTRAL_API_KEY}"
+      },
+      "models": {
+        "devstral-medium-latest": {
+          "name": "devstral-medium-latest",
+          "limit": {
+            "context": 128000,
+            "output": 32768
+          }
+        }
+      }
+    }
+  },
+  "autoupdate": false,
+  "server": {
+    "port": 18789,
+    "host": "127.0.0.1"
+  }
+}

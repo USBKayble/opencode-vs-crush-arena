@@ -7,6 +7,7 @@ ENV PATH=$GOBIN:$PATH
 RUN apt-get update && apt-get install -y \
     golang \
     git \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
