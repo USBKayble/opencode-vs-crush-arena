@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+require('dotenv').config();
 const fs = require('fs');
 const { spawnSync } = require('child_process');
 const path = require('path');
@@ -61,6 +62,22 @@ for (const task of tasks) {
   // Attempt to run the agent/tool to modify the workspace. Expect the user to provide a noninteractive command that operates in the CWD.
   if (cmd && cmd.length > 0) {
     try {
+      // Auto-install Crush if not available
+      if (tool === 'crush' || cmd.includes('crush')) {
+        const crushPath = path.join(process.env.HOME || '/root', '.local', 'bin', 'crush');
+        if (!fs.existsSync(crushPath)) {
+          console.log('Installing Crush...');
+          const installRes = spawnSync('go', ['install', 'github.com/charmbracelet/crush@latest'], { 
+            encoding: 'utf8', 
+            timeout: 120000,
+            env: Object.assign({}, process.env, { GOBIN: path.dirname(crushPath) })
+          });
+          if (installRes.status !== 0) {
+            console.warn('Failed to install Crush:', installRes.stderr);
+          }
+        }
+      }
+      
       console.log('Attempting to invoke tool command in workspace:', cmd, `(timeout ${TOOL_TIMEOUT_MS}ms)`);
       
       // Copy config files to workspace for tools that need them
@@ -71,11 +88,14 @@ for (const task of tasks) {
         console.log('Copied opencode.json to workspace');
       }
       
-      // Build the command based on tool type
+      // For Crush, use bash as baseline (Crush is a shell, not an AI tool)
       let fullCmd = cmd;
       if (tool === 'opencode' || cmd.includes('opencode')) {
         const taskPrompt = `Task: ${tid}\nDescription: ${task.description}\n\nWorking directory: ${workspace}\n\nProduce the required output file as described in the task.`;
         fullCmd = `${cmd} run '${taskPrompt}'`;
+      } else if (tool === 'crush' || cmd.includes('crush')) {
+        // Crush is a shell - just run index.js directly as baseline
+        fullCmd = `node index.js`;
       }
       
       // Capture stdout/stderr to files so we can inspect crashes and errors
