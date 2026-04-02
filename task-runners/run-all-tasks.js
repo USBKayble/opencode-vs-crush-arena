@@ -52,6 +52,11 @@ for (const task of tasks) {
   envLocal.XDG_DATA_HOME = path.join(workspace, '.local', 'share');
   envLocal.XDG_CONFIG_HOME = path.join(workspace, '.config');
   envLocal.HOME = workspace; // some tools respect HOME; isolate it
+  
+  // Pass through API keys that tools need
+  if (process.env.MISTRAL_API_KEY) envLocal.MISTRAL_API_KEY = process.env.MISTRAL_API_KEY;
+  if (process.env.ANTHROPIC_API_KEY) envLocal.ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+  if (process.env.OPENAI_API_KEY) envLocal.OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
   // Attempt to run the agent/tool to modify the workspace. Expect the user to provide a noninteractive command that operates in the CWD.
   if (cmd && cmd.length > 0) {
@@ -71,7 +76,7 @@ for (const task of tasks) {
       if (tool === 'opencode' || cmd.includes('opencode')) {
         // For OpenCode, use 'run' subcommand with the task prompt
         const taskPrompt = `Task: ${tid}\nDescription: ${task.description}\n\nWorking directory: ${workspace}\n\nProduce the required output file as described in the task.`;
-        fullCmd = `echo "${taskPrompt.replace(/"/g, '\\"')}" | ${cmd} run --no-tui`;
+        fullCmd = `${cmd} run "${taskPrompt.replace(/"/g, '\\"')}"`;
       }
       
       // Capture stdout/stderr to files so we can inspect crashes and errors
