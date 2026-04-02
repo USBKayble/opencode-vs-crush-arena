@@ -74,9 +74,8 @@ for (const task of tasks) {
       // Build the command based on tool type
       let fullCmd = cmd;
       if (tool === 'opencode' || cmd.includes('opencode')) {
-        // For OpenCode, use 'run' subcommand with the task prompt
         const taskPrompt = `Task: ${tid}\nDescription: ${task.description}\n\nWorking directory: ${workspace}\n\nProduce the required output file as described in the task.`;
-        fullCmd = `${cmd} run "${taskPrompt.replace(/"/g, '\\"')}"`;
+        fullCmd = `${cmd} run '${taskPrompt}'`;
       }
       
       // Capture stdout/stderr to files so we can inspect crashes and errors
